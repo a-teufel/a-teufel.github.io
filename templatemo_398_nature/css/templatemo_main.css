@@ -131,7 +131,7 @@ img.slide {
 
 .menu {
     position: fixed; 
-    width: 220px;
+    width: 120px;
     z-index: 1; 
     top: 35px;
 }
