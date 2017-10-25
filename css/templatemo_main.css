@@ -28,9 +28,28 @@ hr {
     padding: 0;
 }
 
-img {
+/*img {
     vertical-align: middle;
+}*/
+
+.image {
+  font-size: 0;
+  text-align: center;
+  width: 200px;  /* Container's dimensions */
+  height: 150px;
 }
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
+
 
 /* Preloader */
 #preloader {
