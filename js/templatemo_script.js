@@ -57,11 +57,11 @@ jQuery(function($) {
                 $.backstretch(imgSrc, {speed: 500}); //backstretch for background fade in/out
                 
                 // content slide in/out
-                $("section.active").animate({left:$("section.active").outerWidth()}, 500,function(){
+                $("section.active").animate({left:$("section.active").outerWidth()}, 400,function(){
                     $(this).removeClass("active");
                     $(this).hide();
                     $(name+"-text").show();
-                    $(name+"-text").animate({left:'0px'},500,function(){
+                    $(name+"-text").animate({left:'0px'},400,function(){
                         $(this).addClass("active");
                         
                         google.maps.event.trigger(map, 'resize'); // resize map
